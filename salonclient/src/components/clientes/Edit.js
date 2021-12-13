@@ -222,18 +222,7 @@ class EditCliente extends Component {
                                 <Input  type="text" name="correoCliente" value={this.state.correoCliente} onChange={this.handleChange} />
                             </Col>
                         </FormGroup>
-                        <FormGroup row>
-                            <Label for="name" sm={2}>No. visitas</Label>
-                            <Col sm={2}>
-                                <Input  type="text" name="noVisitas" value={this.state.noVisitas} onChange={this.handleChange} />
-                            </Col>
-                        </FormGroup>
-                        <FormGroup row>
-                            <Label for="name" sm={2}>No. recompensas</Label>
-                            <Col sm={2}>
-                                <Input type="text" name="noRecomp" onChange={this.handleChange} value={this.state.noRecomp} />
-                            </Col>
-                        </FormGroup>
+
                     </Col>
                     <Col>
                         <FormGroup row>
